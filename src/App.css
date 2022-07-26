@@ -1,0 +1,82 @@
+:root {
+  --color-primary: #fd377e;
+  --color-primary-2: #e34981;
+  --color-secondary: #03b898;
+
+  --color-grey-1: #f8f9fa;
+  --color-grey-2: #e9ecef;
+  --color-grey-3: #868e96;
+  --color-grey-4: #212529;
+}
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #212529;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.container {
+  width: 347px;
+  height: 323px;
+  display: flex;
+  flex-direction: column;
+}
+.imagem {
+  width: 122.68px;
+  height: 19.53px;
+}
+.imagemPrincipal {
+  width: 593px;
+  height: 593px;
+}
+.titulo {
+  display: flex;
+  justify-content: flex-start;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 38px;
+  line-height: 48px;
+  text-align: left;
+}
+
+.texto {
+  width: 260px;
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: left;
+}
+
+.iniciar {
+  background-color: var(--color-primary);
+  color: var(--color-grey-1);
+
+  width: 241px;
+  height: 48px;
+
+  border-radius: 8px;
+  border: none;
+
+  cursor: pointer;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.containerPrincipal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+}

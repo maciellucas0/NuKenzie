@@ -1,0 +1,115 @@
+:root {
+  --color-primary: #fd377e;
+  --color-primary-2: #e34981;
+  --color-secondary: #03b898;
+
+  --color-grey-1: #f8f9fa;
+  --color-grey-2: #e9ecef;
+  --color-grey-3: #868e96;
+  --color-grey-4: #212529;
+}
+
+main {
+  margin-top: 2.5rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+form {
+  width: 363px;
+  height: 351px;
+
+  border-radius: 4px;
+  border: solid 2px var(--color-grey-2);
+
+  padding: 1rem;
+
+  box-shadow: 0px 4px 32px -12px rgba(0, 0, 0, 0.25);
+}
+
+.formCima {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 8px;
+}
+
+.formCima input {
+  width: 341px;
+  height: 52.8px;
+
+  border: none;
+  border-radius: 8px;
+
+  background-color: var(--color-grey-1);
+}
+
+span {
+  color: var(--color-grey-3);
+  margin-top: 10px;
+}
+
+.formMeio {
+  display: flex;
+  flex-direction: row;
+  margin-left: 8px;
+  margin-top: 10px;
+}
+
+.divValor {
+  width: 128px;
+  margin-right: 70px;
+}
+
+.divValor input {
+  width: 128px;
+  height: 48px;
+
+  border: none;
+  border-radius: 8px;
+
+  background-color: var(--color-grey-1);
+}
+
+select {
+  width: 128px;
+  height: 48px;
+
+  border: none;
+  border-radius: 8px;
+
+  background-color: var(--color-grey-1);
+}
+
+form button {
+  margin: 0 auto;
+  width: 314px;
+  height: 48px;
+
+  background-color: var(--color-primary);
+  border: none;
+  border-radius: 8px;
+  color: var(--color-grey-1);
+
+  cursor: pointer;
+
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+#cifrao {
+  position: relative;
+  bottom: 48px;
+  left: 100px;
+}
+
+input {
+  padding: 0 0 0 15px;
+}
+
+select {
+  padding: 0 0 0 8px;
+}
